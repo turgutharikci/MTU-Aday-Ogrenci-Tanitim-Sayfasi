@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malatya Turgut Özal Üniversitesi Tanıtım Sayfası</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html" target="_blank">
+                    <img src="mtu-logo.png" alt="Üniversite Logosu">
+                </a>
+            </div>
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Üniversitemiz</a>
+                        <div class="dropdown-content">
+                            <a href="https://ozal.edu.tr/tr/page/menu/tarihce-203">Hakkımızda</a>
+                            <a href="https://www.ozal.edu.tr/userfiles/files/KVKK/bap/t%C3%BCbitak/T%C3%9CB%C4%B0TAKKK/ab/DO%C4%9EU%20ANADOLU%20PROJES%C4%B0/Prof.Dr.%20Recep%20BENTL%C4%B0/Malatya%20Turgut%20%C3%96zal%20%C3%9Cniversitesi%20Tan%C4%B1t%C4%B1m%202024%20V7~1.mp4">Tanıtım Videosu</a>
+                            <a href="fotograflarla-mtu.html">Fotoğraflarla MTÜ</a>
+                        </div>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Öğrenci</a>
+                            <div class="dropdown-content">
+                            <a href="https://obs.ozal.edu.tr/oibs/std/login.aspx">OBS</a>
+                            <a href="https://uzem.ozal.edu.tr/login/index.php">UZEM</a>
+                            <a href="https://www.ozal.edu.tr/tr/page/menu/akademik-takvim-33">Akademik Takvim</a>
+                            </div>
+                    <li><a href="#akademik">Akademik</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Kampüste Yaşam</a>
+                        <div class="dropdown-content">
+                            <a href="https://www.ozal.edu.tr/tr/page/menu/ogrenci-yasam-merkezi-39">Yaşam Merkezi</a>
+                            <a href="https://www.ozal.edu.tr/tr/page/menu/ulasim-402">Ulaşım</a>
+                            <a href="https://www.kykyurtlar.com/malatya-kyk-yurtlari/">Konaklama</a>
+                            <a href="https://www.ozal.edu.tr/tr/page/menu/spor-ve-sosyal-yasam-40">Spor ve Sosyal Yaşam</a>
+                            <a href="https://sksdb.ozal.edu.tr/tr/page/6980">Yemek Menüsü</a>
+                            
+                        </div>
+                    </li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                    
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <!-- Ana Sayfa (Hero Section) -->
+    <section id="anasayfa" class="hero-section">
+     
+    </section>
+
+    <!-- Akademik Bölüm -->
+    <section id="akademik">
+        <i><h2>Akademik Birimler</h2></i>
+        <!-- Sekme Menü -->
+        <div class="tabs">
+            <button class="tab-btn" data-tab="fakulteler">Fakültelerimiz</button>
+            <button class="tab-btn" data-tab="myo">Meslek Yüksekokullarımız</button>
+            <button class="tab-btn" data-tab="yuksekokullar">Yüksekokullarımız</button>
+        </div>
+
+        <!-- Fakülteler -->
+        <div class="tab-content active" id="fakulteler">
+            <!-- Fakülteler Listesi -->
+            <div id="fakulteler-list">
+                <ul id="fakulte-list"></ul> <!-- Fakültelerin burada listeleneceği alan -->
+            </div>
+        </div>
+
+        <!-- Meslek Yüksekokulları -->
+        <div class="tab-content" id="myo">
+            <div id="myo-list">
+                <ul id="myo-list-ul"></ul> <!-- Meslek yüksekokulları burada listelenecek -->
+            </div>
+        </div>
+
+        <!-- Yüksekokullar -->
+        <div class="tab-content" id="yuksekokullar">
+            <div id="yuksekokullar-list">
+                <ul id="yuksekokullar-list-ul"></ul> <!-- Yüksekokullar burada listelenecek -->
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-info" id="iletisim"></div>
+            <div class="footer-container">
+                <!-- Yeşilyurt Yerleşkesi -->
+                <div class="footer-map-section">
+                    <h3>"YEŞİLYURT YERLEŞKESİ"</h3>
+                    <p>
+                        Adres: İkizce Mahallesi İkizce Sokak No:100 P.K. 44900 Yeşilyurt / MALATYA<br>
+                        Kep adresi: matu@hs01.kep.tr<br>
+                        Fax: (0422) 846 12 25<br>
+                        Santral: (0422) 846 12 55 - (0422) 846 12 65
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12520.247837898518!2d38.205325!3d38.324396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407633001034be43%3A0x13c8984b39e3642!2sMalatya%20Turgut%20%C3%96zal%20%C3%9Cniverstesi%20Sosyal%20ve%20Be%C5%9Feri%20Bilimler%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1733252961746!5m2!1str!2str"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <footer>
+                       
+                      
+                        <!-- Sayaç Alanı -->
+                        <div class="footer-stats">
+                          <div class="stat-box">
+                            <span class="counter" data-target="457">0</span>
+                            <p>Akademik Personel</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="509">0</span>
+                            <p>İdari/Destek Personel</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="10989">0</span>
+                            <p>Aktif Öğrenci</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="104">0</span>
+                            <p>Yabancı Öğrenci</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="6">0</span>
+                            <p>Fakülte</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="2">0</span>
+                            <p>Yüksekokul</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="9">0</span>
+                            <p>Meslek Yüksekokul</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="10">0</span>
+                            <p>Uyg. Arş. Merkezi</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="44">0</span>
+                            <p>Ön Lisans Program</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="39">0</span>
+                            <p>Lisans Program</p>
+                          </div>
+                          <div class="stat-box">
+                            <span class="counter" data-target="40">0</span>
+                            <p>Lisansüstü Program</p>
+                          </div>
+                        </div>
+                      </footer>
+                      
+                </div>
+
+                <!-- Battalgazi Yerleşkesi -->
+                <div class="footer-map-section">
+                    <h3>"BATTALGAZİ YERLEŞKESİ"</h3>
+                    <p>
+                        Adres: Boran Mahallesi Kırkgöz Caddesi No: 82B<br>
+                        (Adres Kodu: -3712025703-) Battalgazi/MALATYA<br>
+                        Kep Adresi: matu@hs01.kep.tr<br>
+                        Fax: (0422) 846 12 25<br>
+                        Santral: (0422) 846 12 55 - (0422) 846 12 65
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d49984.724434760356!2d38.355179!3d38.463516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40764a4a0bdf7387%3A0x11acabe91d6de725!2sMalatya%20Turgut%20%C3%96zal%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1733253119868!5m2!1str!2str"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <!-- Logo, Sosyal Medya ve Telif -->
+            <div class="footer-logo-section">
+                <img src="footer-logo.png" alt="Üniversite Logosu" class="footer-logo">
+
+                <!-- Sosyal Medya Simgeleri -->
+                <div class="footer-social-media">
+                    <a href="https://www.facebook.com/malatyaturgutozaledu/" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/malatyaturgutozaledu/" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/MTU_ozaledu/" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC1vdFuS3OMIn5jwOIUyAdKQ/" target="_blank"
+                        class="social-icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    © 2024 Malatya Turgut Özal Üniversitesi. Tüm Hakları Saklıdır.
+                </p>
+            </div>
+        </footer>
+        
+
+        <script src="script.js"></script>
+        
+</body>
+
+</html>
